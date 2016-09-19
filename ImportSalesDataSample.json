@@ -1,0 +1,44 @@
+{
+  "$id": "1",
+  "dealerIdentifier": "CNPJ",
+  "client": {
+    "$id": "2",
+    "cpF_CNPJ": null,
+    "rG_IE": null,
+    "firstName": "Sobrenome",
+    "lastName": null,
+    "type": 0,
+    "email": "hue@hue.com",
+    "addresses": [],
+    "phones": [
+      {
+        "$id": "3",
+        "idd": null,
+        "ddd": null,
+        "phoneNumber": "11 2022-0977"
+      }
+    ]
+  },
+  "saleData": {
+    "$id": "4",
+    "invoiceNumber": null,
+    "invoiceSeriesNumber": null,
+    "proposalNumber": null,
+    "invoiceDate": "0001-01-01T00:00:00+00:00",
+    "deliverDate": "0001-01-01T00:00:00+00:00",
+    "amount": 0,
+    "vehicle": {
+      "$id": "5",
+      "vin": "Chassi",
+      "brazilianRenavan": "Renavan",
+      "brandName": null,
+      "familyName": null,
+      "modelName": null,
+      "type": 0,
+      "licensePlate": "Placa",
+      "color": null,
+      "fuelType": null,
+      "carClickModelIdentifier": null
+    }
+  }
+}
