@@ -1,0 +1,56 @@
+{
+  "DealerIdentifier": "CNPJ",
+  "Client": {
+    "CPF_CNPJ": null,
+    "RG_IE": null,
+    "FirstName": null,
+    "LastName": null,
+    "Type": 0,
+    "Email": null,
+    "Address": {
+      "AddressLine1": null,
+      "AddressLine2": null,
+      "Building": null,
+      "Number": null,
+      "District": null,
+      "City": null,
+      "StateProvince": null,
+      "Country": null,
+      "PostalCode": null,
+      "Longitude": 0.0,
+      "Latitude": 0.0,
+      "Altitude": 0.0
+    },
+    "Phone": {
+      "IDD": null,
+      "DDD": null,
+      "PhoneNumber": null
+    }
+  },
+  "InvoiceNumber": null,
+  "InvoiceSeriesNumber": null,
+  "ProposalNumber": null,
+  "InvoiceDate": "0001-01-01T00:00:00+00:00",
+  "DeliverDate": "0001-01-01T00:00:00+00:00",
+  "InvoiceAmount": 0.0,
+  "Vehicle": {
+    "VIN": null,
+    "BrazilianRenavan": null,
+    "BrandName": null,
+    "FamilyName": null,
+    "ModelName": null,
+    "Type": 0,
+    "LicensePlate": null,
+    "ColorName": null,
+    "FuelTypeName": null,
+    "ModelYear": null,
+    "FabricationYear": null,
+    "CarClickModelIdentifier": null,
+    "InsuranceExpirationDate": null,
+    "LicensingExpirationDate": null
+  }
+}
+
+
+
+
