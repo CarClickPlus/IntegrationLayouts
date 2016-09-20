@@ -1,53 +1,50 @@
 {
   "DealerIdentifier": "CNPJ",
   "Client": {
-    "CPF_CNPJ": null,
-    "RG_IE": null,
-    "FirstName": null,
-    "LastName": null,
-    "Type": 0,
-    "Email": null,
+    "CPF_CNPJ": "ESTE CAMPO  É O CNPJ OU O CPF DO CLIENTE",
+    "RG_IE": "ESTE CAMPO É O RG OU A INSCRICAO ESTADUAL CLIENTE",
+    "FirstName": "ESTE CAMPO É O NOME DA CLIENTE",
+    "LastName": "ESTE CAMPO É O SOBRENOME DO CLIENTE",
+    "Type": 0, // ESTE CAMPO É O TIPO DE PESSOA DO CLIENTE (0 - FISICA, 1 - JURIDICA)
+    "Email": "ESTE CAMPO É O ENDEREÇO DE EMAIL DO CLIENTE",
     "Address": {
-      "AddressLine1": null,
-      "AddressLine2": null,
-      "Building": null,
-      "Number": null,
-      "District": null,
-      "City": null,
-      "StateProvince": null,
-      "Country": null,
-      "PostalCode": null,
-      "Longitude": 0.0,
-      "Latitude": 0.0,
-      "Altitude": 0.0
+      "AddressLine1": "ESTE CAMPO É O ENDERECO DA RESIDENCIA DO CLIENTE",
+      "AddressLine2": "CAMPO ADICIONAL",
+      "Building": "ESTE CAMPO É NOME DO EDIFICIO OU PREDIO OU QUALQUER OUTRO TIPO DO ENDERECO DO CLIENTE",
+      "Number": "ESTE CAMPO É O NUMERO DA RESIDENCIA DO CLIENTE",
+      "District": "ESTE CAMPO É O BAIRRO DO ENDERECO DO CLIENTE",
+      "City": "ESTE CAMPO É A CIDADE DO ENDERECO DO CLIENTE",
+      "StateProvince": "ESTE CAMPO É O ESTADO DO ENDERECO DO CLIENTE",
+      "Country": "ESTE CAMPO É O PAIS DO ENDERECO DO CLIENTE",
+      "PostalCode": "CONHECIDO COMO CEP DO ENDERECO DO CLIENTE",
+      "Longitude": 0.0, //LOGITUDE ENDERECO DO CLIENTE
+      "Latitude": 0.0, // LATITUDE ENDERECO DO CLIENTE
+      "Altitude": 0.0 // ALTITUDE ENDERECO DO CLIENTE
     },
     "Phone": {
-      "IDD": null,
-      "DDD": null,
-      "PhoneNumber": null
+      "PhoneNumber": null // TELEFONE DO CLIENTE
     }
   },
-  "InvoiceNumber": null,
-  "InvoiceSeriesNumber": null,
-  "ProposalNumber": null,
-  "InvoiceDate": "0001-01-01T00:00:00+00:00",
-  "DeliverDate": "0001-01-01T00:00:00+00:00",
-  "InvoiceAmount": 0.0,
+  "InvoiceNumber": "NUMERO DA NOTA FISCAL",
+  "InvoiceSeriesNumber": "SERIE DA NOTA FISCAL",
+  "ProposalNumber": "NUMERO DA PROPOSTA",
+  "InvoiceDate": "DATA DA NOTA FISCAL",
+  "DeliverDate": "DATA DA ENTREGA DO VEICULO",
+  "InvoiceAmount": 0.0,// VALOR DA NOTA FISCAR
   "Vehicle": {
-    "VIN": null,
-    "BrazilianRenavan": null,
-    "BrandName": null,
-    "FamilyName": null,
-    "ModelName": null,
-    "Type": 0,
-    "LicensePlate": null,
-    "ColorName": null,
-    "FuelTypeName": null,
-    "ModelYear": null,
-    "FabricationYear": null,
-    "CarClickModelIdentifier": null,
-    "InsuranceExpirationDate": null,
-    "LicensingExpirationDate": null
+    "VIN": "CHASSI DO VEICULO",
+    "BrazilianRenavan": "RENAVAN DO VEICULO",
+    "BrandName": "NOME DA MARCA DO VEICULO",
+    "FamilyName": "NOME DA FAMILIA DO VEICULO",
+    "ModelName": "NOME DO MODELO DO VEICULO",
+    "Type": 0,// TIPO DO VEHICULO (1 NOVO, 2 SEMIUSADO, 3 ANTIGO)
+    "LicensePlate": "PLACA DO VEICULO",
+    "ColorName": "COR DO VEICULO",
+    "FuelTypeName": "COMBUSTIVEL DO VEICULO",
+    "ModelYear": "ANO DO MODELO DO VEICULO",
+    "FabricationYear": "ANO DE FABRICACAO DO VEICULO",
+    "InsuranceExpirationDate": "DATA DE EXPIRACAO DO SEGURO DO VEICULO",
+    "LicensingExpirationDate": "DATA DE EXPIRACAO DA DOCUMENTACAO DO VEICULO"
   }
 }
 
